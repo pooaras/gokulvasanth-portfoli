@@ -86,7 +86,8 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 2px solid #8f9092;
+ 
 }
 
 #header .profile h1 {
@@ -228,7 +229,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("/certs/pic3.jpg") top center;
   background-size: cover;
 }
 
@@ -337,6 +338,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+ 
 }
 
 .about .content ul {
@@ -345,6 +347,7 @@ section {
 }
 
 .about .content ul li {
+  padding-top: 25px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -362,6 +365,7 @@ section {
 }
 
 .about .content p:last-child {
+  line-height: 50px;
   margin-bottom: 0;
 }
 
